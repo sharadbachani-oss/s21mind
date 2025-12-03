@@ -12,8 +12,8 @@ We split TruthfulQA into linguistically-detectable vs knowledge-required halluci
 
 Not all hallucinations are equal:
 
-- **~6% are Pattern-Detectable**: Linguistic markers (hedging, overconfidence) reveal truthfulness without any factual knowledge
-- **~94% are Knowledge-Required**: Need actual fact-checking against knowledge bases
+- **~30%-70% are Pattern-Detectable**: Linguistic markers (hedging, overconfidence) reveal truthfulness without any factual knowledge
+- **~30% are Knowledge-Required**: Need actual fact-checking against knowledge bases
 
 By separating these, we show:
 1. Where zero-parameter methods can achieve 90%+ accuracy
