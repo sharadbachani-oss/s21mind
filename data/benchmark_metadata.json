@@ -1,0 +1,17 @@
+{
+  "benchmark_name": "HexaMind Hallucination Benchmark",
+  "version": "1.0.0",
+  "source": "TruthfulQA (817 questions \u00d7 2 = 1634 Q-A pairs)",
+  "total_samples": 1634,
+  "splits": {
+    "pattern_detectable": {
+      "count": 89,
+      "percentage": 5.4,
+      "hexamind_accuracy": 94.38
+    },
+    "knowledge_required": {
+      "count": 1545,
+      "percentage": 94.6
+    }
+  }
+}
